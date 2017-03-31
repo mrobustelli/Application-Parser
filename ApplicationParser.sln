@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationParser", "Applic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationParser.Runner", "ApplicationParser.Runner\ApplicationParser.Runner.csproj", "{87AD39F2-DD8D-4519-B4FC-F9F50D0FE1A2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{C2086ECD-680B-4BB6-B8B6-6D3DFCB2B4E7}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\ApplicationParser.nuspec = nuget\ApplicationParser.nuspec
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeGen", "CodeGen", "{0FECA139-B14D-4B23-961A-9133FA0F4269}"
+	ProjectSection(SolutionItems) = preProject
+		nuget\CodeGen\ObjectTypes.tt.pp = nuget\CodeGen\ObjectTypes.tt.pp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +34,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0FECA139-B14D-4B23-961A-9133FA0F4269} = {C2086ECD-680B-4BB6-B8B6-6D3DFCB2B4E7}
 	EndGlobalSection
 EndGlobal
