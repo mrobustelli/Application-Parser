@@ -3,7 +3,7 @@
 This nuget package is used to extract information from Relativity's application for development. To install
 
 ```
-nuget-install Heretik.ApplicationParser
+Install-Package Heretik.ApplicationParser
 ```
 After installing a ObjectTypes.tt will be generated that will output a cs file with all of the information in the application.xml file
 
