@@ -5,5 +5,6 @@ namespace ApplicationParser
     public class Field : Artifact
     {
         public IEnumerable<Artifact> Choices { get; set; }
+        public int FieldTypeId { get; set; }
     }
 }

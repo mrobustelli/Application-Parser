@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Heretik.ApplicationParser</id>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <authors>Heretik</authors>
     <owners>Heretik</owners>
     <projectUrl>https://github.com/dvbarnes/Application-Parser</projectUrl>

@@ -9,12 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationParser.Runner", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{C2086ECD-680B-4BB6-B8B6-6D3DFCB2B4E7}"
 	ProjectSection(SolutionItems) = preProject
+		application\application.xml = application\application.xml
 		nuget\ApplicationParser.nuspec = nuget\ApplicationParser.nuspec
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeGen", "CodeGen", "{0FECA139-B14D-4B23-961A-9133FA0F4269}"
 	ProjectSection(SolutionItems) = preProject
-		nuget\CodeGen\ObjectTypes.tt.pp = nuget\CodeGen\ObjectTypes.tt.pp
+		nuget\content\CodeGen\ObjectDefs.tt.pp = nuget\content\CodeGen\ObjectDefs.tt.pp
+		nuget\content\CodeGen\ObjectTypes.tt.pp = nuget\content\CodeGen\ObjectTypes.tt.pp
 	EndProjectSection
 EndProject
 Global

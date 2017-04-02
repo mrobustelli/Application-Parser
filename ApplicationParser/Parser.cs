@@ -50,7 +50,12 @@ namespace ApplicationParser
         {
             var guid = field.SelectNodes("Guid").Item(0);
             var name = field.SelectNodes("DisplayName").Item(0);
-            var artifact = new Field { Guid = guid.InnerText, Name = name.InnerText };
+            var fieldId = int.Parse(field.SelectNodes("FieldTypeId").Item(0).InnerText);
+            var artifact = new Field {
+                Guid = guid.InnerText,
+                Name = name.InnerText,
+                FieldTypeId = fieldId
+            };
             var choiceList = new List<Artifact>();
             var codes = field.SelectNodes("Codes").Item(0).SelectNodes("Code") ;
             foreach(XmlNode code in codes)

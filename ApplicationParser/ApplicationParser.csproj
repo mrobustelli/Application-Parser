@@ -41,20 +41,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application.cs" />
+    <Compile Include="ArtifactWrapper.cs" />
     <Compile Include="Tab.cs" />
     <Compile Include="Field.cs" />
     <Compile Include="Artifact.cs" />
     <Compile Include="ObjectDef.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types.cs" />
     <Compile Include="Writer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CodeGen\ObjectTypes.tt.pp" />
-    <None Include="nuget\ApplicationParser.nuspec" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
